@@ -1,7 +1,7 @@
 Comparative Analysis of Iterative and Direct Methods for Solving Electrical Network Linear Systems 
 
 ## Overview
-This project investigates the performance of iterative numerical methods—specifically the Jacobi Method, the Gauss-Seidel Method, and the Successive Over-Relaxation (SOR) Method—in solving linear systems derived from electrical network models. Electrical networks are mathematically represented as systems of linear equations based on Kirchhoff's Current Law (KCL), with node voltages treated as the unknown variables. 
+This project investigates the performance of iterative numerical methods. Specifically the Jacobi Method, the Gauss-Seidel Method, and the Successive Over-Relaxation (SOR) Method in solving linear systems derived from electrical network models. Electrical networks are mathematically represented as systems of linear equations based on Kirchhoff's Current Law (KCL), with node voltages treated as the unknown variables. 
 
 Because direct analytical solutions can become computationally expensive and memory-intensive for large-scale networks, this project evaluates iterative methods as efficient, scalable alternatives.
 
