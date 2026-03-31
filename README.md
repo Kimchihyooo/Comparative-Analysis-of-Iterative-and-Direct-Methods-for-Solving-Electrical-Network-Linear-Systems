@@ -6,8 +6,8 @@ This project investigates the performance of iterative numerical methods—speci
 Because direct analytical solutions can become computationally expensive and memory-intensive for large-scale networks, this project evaluates iterative methods as efficient, scalable alternatives.
 
 ## Authors & Affiliation
-**Institution:** Bulacan State University, College of Science, Mathematics Department [cite: 3, 10, 11]  
-**Course:** Numerical Analysis (MAT 403) [cite: 14]  
+**Institution:** Bulacan State University, College of Science, Mathematics Department   
+**Course:** Numerical Analysis (MAT 403)  
 **Authors (BSM CS 4B):**
 * Carlos John D. De Jesus 
 * Aldrin M. Custodio
@@ -17,10 +17,10 @@ Because direct analytical solutions can become computationally expensive and mem
 
 ## Methods Analyzed
 The repository implements and compares the following mathematical methods:
-1. **Direct Solver Method**: Computes the exact node voltages by solving the system $Ax=b$, serving as the baseline reference solution with zero error[cite: 151, 152, 322].
-2. **Jacobi Method**: An iterative algorithm where all node voltages are updated simultaneously using values strictly from the previous iteration[cite: 232].
-3. **Gauss-Seidel Method**: An improvement over Jacobi that updates node voltages in place, meaning newly computed values are immediately used within the same iteration[cite: 131, 278].
-4. **Successive Over-Relaxation (SOR)**: An extension of the Gauss-Seidel method that introduces a relaxation factor ($\omega$) to further accelerate the rate of convergence.
+1. **Direct Solver Method**: Computes the exact node voltages by solving the system $Ax=b$, serving as the baseline reference solution with zero error.
+2. **Jacobi Method**: An iterative algorithm where all node voltages are updated simultaneously using values strictly from the previous iteration.
+3. **Gauss-Seidel Method**: An improvement over Jacobi that updates node voltages in place, meaning newly computed values are immediately used within the same iteration.
+4. **Successive Over-Relaxation (SOR)**: An extension of the Gauss-Seidel method that introduces a relaxation factor Ω to further accelerate the rate of convergence.
 
 ## Key Findings
 Based on our experimental results on the 5-node circuit dataset, the iterative methods exhibited distinct differences in efficiency:
