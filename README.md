@@ -24,9 +24,9 @@ The repository implements and compares the following mathematical methods:
 
 ## Key Findings
 Based on our experimental results on the 5-node circuit dataset, the iterative methods exhibited distinct differences in efficiency:
-* **Jacobi Method**: Proved to be the least efficient, requiring **47 iterations** with an approximation error of 3.24 x 10^{-6}.
-* **Gauss-Seidel Method**: Significantly improved convergence, requiring only **26 iterations** with a lower error of 1.35 x 10^{-6}.
-* **SOR Method**: Demonstrated the most superior performance. By tuning the relaxation parameter to Ω=1.25, the algorithm converged in just **13 iterations** with an exceptional error margin of 1.11 x 10^{-7}.
+* **Jacobi Method**: Proved to be the least efficient, requiring **47 iterations** with an approximation error of $3.24 x 10^{-6}$.
+* **Gauss-Seidel Method**: Significantly improved convergence, requiring only **26 iterations** with a lower error of $1.35 x 10^{-6}$.
+* **SOR Method**: Demonstrated the most superior performance. By tuning the relaxation parameter to $Ω=1.25$, the algorithm converged in just **13 iterations** with an exceptional error margin of $1.11 x 10^{-7}$.
 
 ## Usage & Dependencies
 To run the Jupyter Notebook (`ComparativeAnalysis.ipynb`) and replicate the paper's findings, you need Python 3.x and the following libraries installed:
